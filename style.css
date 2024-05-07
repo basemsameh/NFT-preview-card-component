@@ -1,8 +1,6 @@
 :root {
-    /* Primary */
     --Soft-blue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
-    /* Neautral */
     --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
     --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
     --Very-dark-blue-line: hsl(215, 32%, 27%);
@@ -14,13 +12,15 @@ body {
     background-color: var(--Very-dark-blue-main-BG);
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Outfit', sans-serif;
+    display: grid;
+    height: 95vh;
+    place-items: center;
 }
 
 .container {
     background-color: var(--Very-dark-blue-card-BG);
     height: 500px;
     width: 280px;
-    margin: 100px auto;
     border-radius: 15px;
     padding: 20px;
 }
